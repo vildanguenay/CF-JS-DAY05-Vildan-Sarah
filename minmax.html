@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do more with logical operators: if/else, find minimum and maximum</title>
+</head>
+<body>
+
+	<!-- Create a JavaScript program that can: -->
+
+	<!-- Find out the smaller out of two numbers (aka minimum) that are saved in two variables (print the result)
+
+	Find out the bigger  out of two numbers (aka maximum) that are saved in two variables (print the result) -->
+
+	<!-- <script>
+
+		function whatever(a, b, c) {
+			if (a>b && a>c) {
+				document.write(a);
+			}
+			else if (b>a && b>c) {
+				document.write(b);
+			}
+			else {
+				document.write(c);
+			}
+		}
+		whatever(25, 8, 14)
+	</script>
+ -->
+	<!-- Let us say that you have an array:
+				[1, 3, 2, 6, 4]
+	Building upon previous examples, find a way (using for loop) that would help you to find a minimum/maximum element of an array (hint: you need initial value, then you move through the array with loop and compare). -->
+
+<script>
+	var numbers = [1, 2, 3, 4,];
+	var result = 0
+	for (var i =0; i<numbers.length-1; i++) {
+		if (numbers[i] > numbers[i+1]) {
+
+			if (numbers[i]>result) {
+
+			}
+		}
+		else{
+
+			if (numbers[i+1] > result) {
+				result = numbers[i+1];
+			}
+		}
+	}
+document.write("The biggest number in the array is " + result);
+
+	
+
+</script>
+</body>
+</html>
