@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Data</title>
+</head>
+<body>
+	<script>
+		document.writeln("<h3>Employee Data</h3>");
+		var content = {
+			"Employee": [{
+				"UniqueID": "01",
+				"FirstName": "Paul",
+				"LastName": "McCartney",
+				"Emailaddress": "paul.mccartney@mail.com",
+				"JobTitle": "Musician",
+				"Salary": "25 000"
+				}, {
+				"UniqueID": "02",
+				"FirstName": "John",
+				"LastName": "Lennon",
+				"Emailaddress": "john.lennon@mail.com",
+				"JobTitle": "Singer",
+				"Salary": "26 000"
+				}, {
+				"UniqueID": "03",
+				"FirstName": "Ringo",
+				"LastName": "Starr",
+				"Emailaddress": "ringo.starr@mail.com",
+				"JobTitle": "Drummer",
+				"Salary": "27 000"
+				},{
+				"UniqueID": "04",
+				"FirstName": "George",
+				"LastName": "Harrison",
+				"Emailaddress": "george.harrison@mail.com",
+				"JobTitle": "Guitarist",
+				"Salary": "28 000"
+				},{
+				"UniqueID": "05",
+				"FirstName": "Freddie",
+				"LastName": "Mercury",
+				"Emailaddress": "freddie.mercury@mail.com",
+				"JobTitle": "Star",
+				"Salary": "50 000"
+				},{
+				"UniqueID": "06",
+				"FirstName": "Brian",
+				"LastName": "May",
+				"Emailaddress": "brian.may@mail.com",
+				"JobTitle": "Guitarist",
+				"Salary": "30 000"
+				},{
+				"UniqueID": "07",
+				"FirstName": "Roger",
+				"LastName": "Taylor",
+				"Emailaddress": "roger.taylor@mail.com",
+				"JobTitle": "Singer",
+				"Salary": "31 000"
+				},{
+				"UniqueID": "08",
+				"FirstName": "John",
+				"LastName": "Deacon",
+				"Emailaddress": "john.deacon@mail.com",
+				"JobTitle": "Bassist",
+				"Salary": "32 000"
+				},{
+				"UniqueID": "09",
+				"FirstName": "Michael",
+				"LastName": "Jackson",
+				"Emailaddress": "michael.jackson@mail.com",
+				"JobTitle": "Artist",
+				"Salary": "50 000"
+				},{
+				"UniqueID": "10",
+				"FirstName": "Tina",
+				"LastName": "Turner",
+				"Emailaddress": "tina.turner@mail.com",
+				"JobTitle": "Actress",
+				"Salary": "40 000"
+				}]
+			}
+		var i = 0
+		document.writeln("<table border='1' width=100>");
+		for (i = 0; i < content.Employee.length; i++) {
+			document.writeln("<td>");
+			document.writeln("<table border='1' width=100>");
+			document.writeln("<tr><td>Unique ID</td><td width=50>" + content.Employee[i].UniqueID + "</td></tr>");
+			document.writeln("<tr><td>First Name</td><td width=50>" + content.Employee[i].FirstName + "</td></tr>");
+			document.writeln("<tr><td>Last Name</td><td width=50>" + content.Employee[i].LastName + "</td></tr>");
+			document.writeln("<tr><td>Email adress</td><td width=50>" + content.Employee[i].Emailaddress + "</td></tr>");
+			document.writeln("<tr><td>Job Title</td><td width=50>" + content.Employee[i].JobTitle + "</td></tr>");
+			document.writeln("<tr><td>Salary</td><td width=50>" + content.Employee[i].Salary + "</td></tr>");
+		}
+		document.writeIn("</tr></table>");
+	</script>
+</body>
+</html>

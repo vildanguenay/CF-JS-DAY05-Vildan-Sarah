@@ -1,0 +1,73 @@
+{
+	"Employee": [{
+		"Unique ID": "01",
+		"First Name": "Paul",
+		"Last Name": "McCartney",
+		"Email address": "paul.mccartney@mail.com",
+		"Job Title": "Musician",
+		"Salary": "25 000"
+	}, {
+		"Unique ID": "02",
+		"First Name": "John",
+		"Last Name": "Lennon",
+		"Email address": "john.lennon@mail.com",
+		"Job Title": "Singer",
+		"Salary": "26 000"
+	}, {
+		"Unique ID": "03",
+		"First Name": "Ringo",
+		"Last Name": "Starr",
+		"Email address": "ringo.starr@mail.com",
+		"Job Title": "Drummer",
+		"Salary": "27 000"
+	},{
+		"Unique ID": "04",
+		"First Name": "George",
+		"Last Name": "Harrison",
+		"Email address": "george.harrison@mail.com",
+		"Job Title": "Guitarist",
+		"Salary": "28 000"
+	},{
+		"Unique ID": "05",
+		"First Name": "Freddie",
+		"Last Name": "Mercury",
+		"Email address": "freddie.mercury@mail.com",
+		"Job Title": "Star",
+		"Salary": "50 000"
+	},{
+		"Unique ID": "06",
+		"First Name": "Brian",
+		"Last Name": "May",
+		"Email address": "brian.may@mail.com",
+		"Job Title": "Guitarist",
+		"Salary": "30 000"
+	},{
+		"Unique ID": "07",
+		"First Name": "Roger",
+		"Last Name": "Taylor",
+		"Email address": "roger.taylor@mail.com",
+		"Job Title": "Singer",
+		"Salary": "31 000"
+	},{
+		"Unique ID": "08",
+		"First Name": "John",
+		"Last Name": "Deacon",
+		"Email address": "john.deacon@mail.com",
+		"Job Title": "Bassist",
+		"Salary": "32 000"
+	},{
+		"Unique ID": "09",
+		"First Name": "Michael",
+		"Last Name": "Jackson",
+		"Email address": "michael.jackson@mail.com",
+		"Job Title": "Artist",
+		"Salary": "50 000"
+	},{
+		"Unique ID": "10",
+		"First Name": "Tina",
+		"Last Name": "Turner",
+		"Email address": "tina.turner@mail.com",
+		"Job Title": "Actress",
+		"Salary": "40 000"
+	}]
+}
