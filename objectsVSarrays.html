@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objects vs arrays, array of objects</title>
+</head>
+<body>
+	<!-- Warm-up: arrays and loops -->
+
+	<!-- Write a for loop that modifies an array of actors, making them awesome! For example, if your starting array is
+
+	var actors = ["Tom Hanks", "Leonardo di Caprio", " Jennifer Lawrence", "Daniel Radcliffe"];
+	then after you run your loop, actors should look like this:
+
+	 ["Awesome Tom Hanks", "Awesome Leonaro di Caprio", "Awesome Jennifer Lawrence", "Awesome Daniel Radcliffe"];
+	Hint: You’ll need to reassign values to the array at each index. This just means assigning a new value at an existing position in the array. For example, to make the first actor awesome, you could say:
+
+	actors[0] = "Awesome " + actors[0]; -->
+	
+	<script>
+		var i = 0
+		var actors = ["Tom Hanks", "Leonardo di Caprio", " Jennifer Lawrence", "Daniel Radcliffe"];
+		for (i = 0; i < actors.length; i++) {
+			document.write("Awesome " + actors[i] + "<br>");
+		}
+	</script>
+
+</body>
+</html>
