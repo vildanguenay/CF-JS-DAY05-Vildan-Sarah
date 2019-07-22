@@ -81,17 +81,28 @@
 			}
 		var i = 0
 		document.writeln("<table border='1' width=100>");
+			document.writeln("<td>");
+			document.writeln("<table border='1' width=100>");
+			document.writeln("<tr><td>Unique ID</td></tr>");
+			document.writeln("<tr><td>First Name</td></tr>");
+			document.writeln("<tr><td>Last Name</td></tr>");
+			document.writeln("<tr><td>Email address</td></tr>");
+			document.writeln("<tr><td>Job Title</td></tr>");
+			document.writeln("<tr><td>Salary</td></tr>");
 		for (i = 0; i < content.Employee.length; i++) {
 			document.writeln("<td>");
 			document.writeln("<table border='1' width=100>");
-			document.writeln("<tr><td>Unique ID</td><td width=50>" + content.Employee[i].UniqueID + "</td></tr>");
-			document.writeln("<tr><td>First Name</td><td width=50>" + content.Employee[i].FirstName + "</td></tr>");
-			document.writeln("<tr><td>Last Name</td><td width=50>" + content.Employee[i].LastName + "</td></tr>");
-			document.writeln("<tr><td>Email adress</td><td width=50>" + content.Employee[i].Emailaddress + "</td></tr>");
-			document.writeln("<tr><td>Job Title</td><td width=50>" + content.Employee[i].JobTitle + "</td></tr>");
-			document.writeln("<tr><td>Salary</td><td width=50>" + content.Employee[i].Salary + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].UniqueID + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].FirstName + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].LastName + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].Emailaddress + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].JobTitle + "</td></tr>");
+			document.writeln("<tr><td width=50>" + content.Employee[i].Salary + "</td></tr>");
+			document.writeln("</table>");
+       		document.writeln("</td>");
 		}
 		document.writeIn("</tr></table>");
+
 	</script>
 </body>
 </html>
